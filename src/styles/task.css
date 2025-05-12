@@ -1,0 +1,65 @@
+.container {
+  min-height: 100vh;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 3em;
+  opacity: 0.6;
+  gap: 1em;
+}
+
+#backtohome-button {
+  display: inline-flex;
+  cursor: pointer;
+  align-self: start;
+  background: none;
+  border: none;
+}
+
+#backtohome-button:hover {
+  background-color: #adadad;
+}
+
+.edit-task-container {
+  border-radius: 0.5em;
+  padding: 2em;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.input-container {
+  width: 100%;
+}
+
+.edit-input {
+  width: 20em;
+  height: 3em;
+  border-radius: 0.5em;
+  border: 0.1px solid #cccbcb;
+  padding: 0 1em;
+  font-size: 14px;
+}
+
+.submit-container {
+  width: 100%;
+}
+
+.submit-button {
+  width: 21em;
+  height: 3em;
+  border-radius: 0.5em;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+}
+
+.submit-button:hover {
+  background-color: rgb(53, 53, 53);
+  transition: 0.5s;
+}

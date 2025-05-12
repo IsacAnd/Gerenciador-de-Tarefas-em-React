@@ -1,0 +1,78 @@
+.tasklist-container h2 {
+  text-align: center;
+}
+
+.tasklist {
+  width: 17.5em;
+  list-style: none;
+}
+
+.tasklist li {
+  margin: 0.5em 0;
+  width: 100%;
+  border: 0.1px solid #cccccc;
+  padding: 0.3em;
+  border-radius: 0.5em;
+}
+
+.isCompleted {
+  background-color: rgb(241, 239, 231);
+  opacity: 0.5;
+}
+
+.tasklist li:hover {
+  background-color: rgb(241, 239, 231);
+  transition: 0.2s;
+}
+
+.task-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-title h4 {
+  display: inline-flex;
+}
+
+.task-options {
+  display: flex;
+  gap: 0.2em;
+}
+
+.task-option-item {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  display: inline-flex;
+  background: none;
+}
+
+#delete-task {
+  border-radius: 0.1em;
+}
+
+#delete-task:hover {
+  transition: 0.3s;
+  background-color: #feb3b3;
+}
+
+#done-task {
+  border-radius: 0.1em;
+}
+
+#done-task:hover {
+  transition: 0.3s;
+  background-color: #c0ff9e;
+}
+
+#edit-task {
+  border-radius: 0.1em;
+  padding: 0.2em;
+}
+
+#edit-task:hover {
+  transition: 0.3s;
+  background-color: #b1b1b1;
+}
