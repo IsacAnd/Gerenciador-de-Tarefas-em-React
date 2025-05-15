@@ -26,7 +26,9 @@ function TaskList(props) {
           props.tasks.map((task, index) => (
             <li key={index} className={task.isCompleted ? `isCompleted` : null}>
               <div className="task-title">
-                <h4>
+                <h4
+                  style={{ textDecoration: task.isCompleted && "line-through" }}
+                >
                   {task.title} {task.isCompleted && <Check size={18} />}
                 </h4>
                 <div className="task-options">
